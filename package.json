@@ -1,0 +1,22 @@
+{
+  "name": "comment-message-editor",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./dist/comment-message-editor.umd.min.js",
+  "scripts": {
+    "test": "vue-cli-service serve test/main.js",
+    "build": "vue-cli-service build --target lib src/index.js"
+  },
+  "keywords": [
+    "message-editor",
+    "editor",
+    "comment-editor"
+  ],
+  "author": "konglingwen",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/cli-service": "^4.2.3",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0"
+  }
+}
